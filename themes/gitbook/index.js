@@ -20,7 +20,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import Announcement from './components/Announcement'
-import ArticleAround from './components/ArticleAround'
+// import ArticleAround from './components/ArticleAround'
 import ArticleInfo from './components/ArticleInfo'
 import { ArticleLock } from './components/ArticleLock'
 import BlogArchiveItem from './components/BlogArchiveItem'
@@ -376,7 +376,7 @@ const LayoutSlug = props => {
               </div>
 
               {post?.type === 'Post' && (
-                <ArticleAround prev={prev} next={next} />
+                // <ArticleAround prev={prev} next={next} />
               )}
 
               {/* <AdSlot />
