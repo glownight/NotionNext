@@ -375,9 +375,9 @@ const LayoutSlug = props => {
                 </div>
               </div>
 
-              {post?.type === 'Post' && (
-                // <ArticleAround prev={prev} next={next} />
-              )}
+              {/* {post?.type === 'Post' && (
+                <ArticleAround prev={prev} next={next} />
+              )} */}
 
               {/* <AdSlot />
               <WWAds className='w-full' orientation='horizontal' /> */}
